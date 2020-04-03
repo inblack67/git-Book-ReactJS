@@ -15,7 +15,7 @@ const Navbar = ({ title }) => {
           </a>
 
           <ul className="right">
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/" className='hide-on-small-only'>Home</Link></li>
             <li><Link to="/about">About</Link></li>
           </ul>
         </div>
